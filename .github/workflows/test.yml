@@ -1,0 +1,34 @@
+name: .NET CI Workflow 
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+# Step 1: Checkout the repository code
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+ # Step 2: Set up the required version of the .NET SDK
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x' 
+
+# Step 3: Restore project dependencies
+      - name: Restore dependencies
+        run: dotnet restore
+
+ # Step 4: Check code formatting using dotnet format
+      - name: Check code formatting
+        run: dotnet format --verify-no-changes --severity error
+
+# Step 5: Build the project in Release mode
+      - name: Build solution
+        run: dotnet build --no-restore --configuration Release
