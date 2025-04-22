@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eMzrsVFI/yQ=",
+  "dgSpecHash": "r+25MvfT2FM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\moniq\\source\\repos\\CyberSecurityChatbot\\CyberSecurityChatbot\\CyberSecurityChatbot.csproj",
+  "projectFilePath": "C:\\Users\\moniq\\OneDrive - KZN Department of Education\\Documents\\GitHub\\testing2025\\CyberSecurityChatbot\\CyberSecurityChatbot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moniq\\.nuget\\packages\\system.windows.extensions\\9.0.4\\system.windows.extensions.9.0.4.nupkg.sha512"
   ],

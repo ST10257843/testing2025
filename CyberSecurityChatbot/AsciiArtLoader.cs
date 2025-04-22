@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace CyberSecurityAwarenessBot
 {
@@ -8,17 +9,24 @@ namespace CyberSecurityAwarenessBot
      * Litiyana Monique Mohanlall
      * litiyana5@gmail.com
      */
-    internal class Program
+    public static class AsciiArtLoader
     {
-        static void Main(string[] args)
+        //Displays cybersecurity-themed ASCII art as the header.
+        public static void DisplayAsciiArt() //ascii text style: doom
         {
-            Console.Title = "Cybersecurity Awareness Bot: CyberSavvy"; //Displays the name of the chatbox
-
-            AudioHelper.PlayGreeting(); //Ensures wav file is played
-            AsciiArtLoader.DisplayAsciiArt(); //Ensures ascii text is diaplyed
-            Console.WriteLine();
-
-
+            try
+            {
+                Console.ForegroundColor = ConsoleColor.Red; //Enhances Console UI with Visual Elements
+                string asciiPath = Path.Combine("Assets\\ascii.txt"); //ascii is stored in the assets folder
+                string art = File.ReadAllText(asciiPath);
+                Console.WriteLine(art);
+                Console.ResetColor();
+            }
+            catch (Exception ex)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.WriteLine("Unable to load ASCII art: " + ex.Message); // Input Validation: Detects and responds to invalid inputs
+            }
         }
     }
     /*
