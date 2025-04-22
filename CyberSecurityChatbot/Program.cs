@@ -8,7 +8,7 @@ namespace CyberSecurityAwarenessBot
      * Litiyana Monique Mohanlall
      * litiyana5@gmail.com
      */
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -18,7 +18,17 @@ namespace CyberSecurityAwarenessBot
             AsciiArtLoader.DisplayAsciiArt(); //Ensures ascii text is diaplyed
             Console.WriteLine();
 
+            // Prompts the user for their name and ensures the input is not empty
+            string userName = UserInteraction.GetUserName();
 
+            // Displays a personalized welcome message with instructions
+            UserInteraction.DisplayWelcomeMessage(userName);
+
+            //Responds to users questions on cybersecurity
+            CyberBot.ChatLoop(userName);
+
+            // Prints a goodbye message before exiting the program
+            UserInteraction.ExitMessage();
         }
     }
     /*

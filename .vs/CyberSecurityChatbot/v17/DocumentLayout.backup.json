@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\moniq\\source\\repos\\CyberSecurityChatbot\\",
+  "WorkspaceRootPath": "C:\\Users\\moniq\\OneDrive - KZN Department of Education\\Documents\\GitHub\\testing2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2A73EDB-4D7C-4480-BC81-F10FB23B7E5E}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\moniq\\source\\repos\\cybersecuritychatbot\\cybersecuritychatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2A73EDB-4D7C-4480-BC81-F10FB23B7E5E}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\moniq\\onedrive - kzn department of education\\documents\\github\\testing2025\\cybersecuritychatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2A73EDB-4D7C-4480-BC81-F10FB23B7E5E}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A73EDB-4D7C-4480-BC81-F10FB23B7E5E}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\moniq\\onedrive - kzn department of education\\documents\\github\\testing2025\\cybersecuritychatbot\\audiohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A73EDB-4D7C-4480-BC81-F10FB23B7E5E}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\audiohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A73EDB-4D7C-4480-BC81-F10FB23B7E5E}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\moniq\\onedrive - kzn department of education\\documents\\github\\testing2025\\cybersecuritychatbot\\asciiartloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A73EDB-4D7C-4480-BC81-F10FB23B7E5E}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\asciiartloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A73EDB-4D7C-4480-BC81-F10FB23B7E5E}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|c:\\users\\moniq\\onedrive - kzn department of education\\documents\\github\\testing2025\\cybersecuritychatbot\\cybersecuritychatbot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C2A73EDB-4D7C-4480-BC81-F10FB23B7E5E}|CyberSecurityChatbot\\CyberSecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\cybersecuritychatbot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CyberSecurityChatbot",
+              "DocumentMoniker": "C:\\Users\\moniq\\OneDrive - KZN Department of Education\\Documents\\GitHub\\testing2025\\CyberSecurityChatbot\\CyberSecurityChatbot.csproj",
+              "RelativeDocumentMoniker": "CyberSecurityChatbot\\CyberSecurityChatbot.csproj",
+              "ToolTip": "C:\\Users\\moniq\\OneDrive - KZN Department of Education\\Documents\\GitHub\\testing2025\\CyberSecurityChatbot\\CyberSecurityChatbot.csproj",
+              "RelativeToolTip": "CyberSecurityChatbot\\CyberSecurityChatbot.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-22T17:20:34.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AsciiArtLoader.cs",
+              "DocumentMoniker": "C:\\Users\\moniq\\OneDrive - KZN Department of Education\\Documents\\GitHub\\testing2025\\CyberSecurityChatbot\\AsciiArtLoader.cs",
+              "RelativeDocumentMoniker": "CyberSecurityChatbot\\AsciiArtLoader.cs",
+              "ToolTip": "C:\\Users\\moniq\\OneDrive - KZN Department of Education\\Documents\\GitHub\\testing2025\\CyberSecurityChatbot\\AsciiArtLoader.cs",
+              "RelativeToolTip": "CyberSecurityChatbot\\AsciiArtLoader.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T17:22:24.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AudioHelper.cs",
+              "DocumentMoniker": "C:\\Users\\moniq\\OneDrive - KZN Department of Education\\Documents\\GitHub\\testing2025\\CyberSecurityChatbot\\AudioHelper.cs",
+              "RelativeDocumentMoniker": "CyberSecurityChatbot\\AudioHelper.cs",
+              "ToolTip": "C:\\Users\\moniq\\OneDrive - KZN Department of Education\\Documents\\GitHub\\testing2025\\CyberSecurityChatbot\\AudioHelper.cs",
+              "RelativeToolTip": "CyberSecurityChatbot\\AudioHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T17:21:35.054Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\moniq\\source\\repos\\CyberSecurityChatbot\\CyberSecurityChatbot\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\moniq\\OneDrive - KZN Department of Education\\Documents\\GitHub\\testing2025\\CyberSecurityChatbot\\Program.cs",
               "RelativeDocumentMoniker": "CyberSecurityChatbot\\Program.cs",
-              "ToolTip": "C:\\Users\\moniq\\source\\repos\\CyberSecurityChatbot\\CyberSecurityChatbot\\Program.cs",
+              "ToolTip": "C:\\Users\\moniq\\OneDrive - KZN Department of Education\\Documents\\GitHub\\testing2025\\CyberSecurityChatbot\\Program.cs",
               "RelativeToolTip": "CyberSecurityChatbot\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T17:11:34.376Z",
               "EditorCaption": ""
